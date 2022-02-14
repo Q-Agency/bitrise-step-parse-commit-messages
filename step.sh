@@ -9,8 +9,10 @@ echo "This is the value specified for the input 'example_step_input': ${example_
 
 # write your script here
 
+envman add --key COMMIT_MESSAGE_CLEAN --value "No commit messages."
 commit_messages_clean=`git log $(git describe --abbrev=0 --tags $(git describe --abbrev=0)^)...$(git describe --abbrev=0) --format=%B | grep -E '[ID]+-[0-9]+:.*[a-zA-Z]+'`
 envman add --key COMMIT_MESSAGE_CLEAN --value "$commit_messages_clean"
+return 0
 
 #
 # --- Export Environment Variables for other Steps:
