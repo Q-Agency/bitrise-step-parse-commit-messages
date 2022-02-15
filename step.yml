@@ -15,9 +15,9 @@ description: |
   This step will create release notes from commit messages with format ID-XXXXXX: xyz.\n
   Commit messages are parsed from between two last git TAGs. If no TAGS are present, it shows default message.\n
   Example of output: ID-12345678: Task description
-website: https://github.com/frkizg/bitrise-step-release-notes
-source_code_url: https://github.com/frkizg/bitrise-step-release-notes
-support_url: https://github.com/frkizg/bitrise-step-release-notes/issues
+website: https://github.com/Q-Agency/bitrise-step-release-notes
+source_code_url: https://github.com/Q-Agency/bitrise-step-release-notes
+support_url: https://github.com/Q-Agency/bitrise-step-release-notes/issues
 host_os_tags:
   - osx-10.10
   - ubuntu-16.04
