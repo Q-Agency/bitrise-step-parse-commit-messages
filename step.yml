@@ -12,8 +12,8 @@ title: |-
 summary: |
   Step for creating release notes
 description: |
-  This step will create release notes from commit messages with format ID-XXXXXX: xyz.\n
-  Commit messages are parsed from between two last git TAGs. If no TAGS are present, it shows default message.\n
+  This step will create release notes from commit messages with format ID-XXXXXX: xyz.
+  Commit messages are parsed from between two last git TAGs. If no TAGS are present, it shows default message.
   Example of output: ID-12345678: Task description
 website: https://github.com/Q-Agency/bitrise-step-release-notes
 source_code_url: https://github.com/Q-Agency/bitrise-step-release-notes
