@@ -63,25 +63,24 @@ toolkit:
     entry_file: step.sh
 
 
-inputs:
-  - example_step_input: Default Value - you can leave this empty if you want to
-    opts:
-      title: "Example Step Input"
-      summary: Summary. No more than 2-3 sentences.
-      description: |
-        Description of this input.
+# inputs:
+#   - example_step_input: Default Value - you can leave this empty if you want to
+#     opts:
+#       title: "Example Step Input"
+#       summary: Summary. No more than 2-3 sentences.
+#       description: |
+#         Description of this input.
 
-        Can be Markdown formatted text.
-      is_expand: true
-      is_required: true
-      value_options: []
+#         Can be Markdown formatted text.
+#       is_expand: true
+#       is_required: true
+#       value_options: []
 
 outputs:
-  - EXAMPLE_STEP_OUTPUT:
+  - COMMIT_MESSAGE_CLEAN:
     opts:
-      title: "Example Step Output"
-      summary: Summary. No more than 2-3 sentences.
+      title: "Commit messages."
+      summary: Commit massages parsed from between two last git TAGs.
       description: |
-        Description of this output.
-
-        Can be Markdown formatted text.
+        Commit massages parsed from between two last git TAGs. If no TAGS are present, it shows default message.
+        ID-1234567: Task description
