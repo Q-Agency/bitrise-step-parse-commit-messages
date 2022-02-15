@@ -12,7 +12,7 @@ title: |-
 summary: |
   Step for creating release notes
 description: |
-  This step will create release notes from commiit messages with format ID-XXXXXX: xyz
+  This step will create release notes from commit messages with format ID-XXXXXX: xyz
 website: https://github.com/frkizg/bitrise-step-release-notes
 source_code_url: https://github.com/frkizg/bitrise-step-release-notes
 support_url: https://github.com/frkizg/bitrise-step-release-notes/issues
@@ -80,7 +80,7 @@ outputs:
   - COMMIT_MESSAGE_CLEAN:
     opts:
       title: "Commit messages."
-      summary: Commit massages parsed from between two last git TAGs.
+      summary: Commit messages parsed from between two last git TAGs.
       description: |
         Commit massages parsed from between two last git TAGs. If no TAGS are present, it shows default message.
         ID-1234567: Task description
