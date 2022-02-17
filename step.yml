@@ -79,31 +79,6 @@ toolkit:
 #       value_options: []
 
 outputs:
-  - BITRISE_SIGNED_AAB_PATH:
-    opts:
-      title: "Path to .AAB file"
-      summary: 
-      description: |
-   - BITRISE_APK_PATH:
-    opts:
-      title: Path to .APK file"
-      summary: 
-      description: |
-   - BITRISE_APP_FINAL_NAME_AAB:
-    opts:
-      title: "AAB filename"
-      summary: 
-      description: |
-    - BITRISE_APP_FINAL_NAME_APK:
-    opts:
-      title: "APK filename"
-      summary: 
-      description: |
-    - BITRISE_APP_FINAL_NAME:
-    opts:
-      title: "Build name."
-      summary: 
-      description: |
   - COMMIT_MESSAGE_CLEAN:
     opts:
       title: "Commit messages."
